@@ -1,4 +1,4 @@
-# ASMVQA: An Assistant System for Medical Visual Question Answering
+# BESTMVQA: A Benchmark Evaluation System for Medical Visual Question Answering
 
 **Tips: The complete  code will be published after the paper is included.**
 
@@ -12,8 +12,7 @@ This is the repository for the ASMVQA, a unified assistant system for users to c
 
 ## Overview
 
-We demonstrate ASMVQA, an Assistant System for Medical Visual Question Answering. Given unstructured clinical data, our system first provides a useful tool to automatically build medical visual question answering (VQA) datasets for users. Given a dataset, users can then conveniently select state-of-the-art (SOTA) models from our model library to perform extensive experiments. With simple
-configurations, our system automatically trains and evaluates the selected models over the dataset, and reports the comprehensive results to users. In particular, we develop a robot assistant to guide users without professional background for performing medical practice, including model evaluation, online clinical consulting, and electronic medical record (EMR) retrieval.
+Medical Visual Question Answering (Med-VQA) is a task that answers a natural language question with a medical image. Existing VQA techniques can be directly applied to solving the task. However, they often suffer from (i) the data insufficient problem, which makes it difficult to train the state of the arts (SOTAs) for domain-specific tasks, and (ii) the reproducibility problem, that existing models have not been thoroughly evaluated in a unified experimental setup. To address the issues, we develop a Benchmark Evaluation SysTem for Medical Visual Question Answering, denoted by BESTMVQA. Given clinical data, our system provides a useful tool for users to automatically build Med-VQA datasets. Users can conveniently select a wide spectrum of models from our library to perform a comprehensive evaluation study. With simple configurations, our system can automatically train and evaluate the selected models over a benchmark dataset, and reports the comprehensive results for users to develop new techniques or perform medical practice. Limitations of existing work are overcome (i) by the data generation tool, which automatically constructs new datasets from unstructured clinical data, and (ii) by evaluating SOTAs on benchmark datasets in a unified experimental setup. The demonstration video of our system can be found at https://youtu.be/QkEeFlu1x4A.
 
 <img src="/Overview.png" alt="Overview" style="zoom:20%;" />
 
